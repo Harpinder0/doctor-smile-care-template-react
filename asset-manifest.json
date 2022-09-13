@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/doctor-smile-care-template-react/static/css/main.bf36a9b7.css",
+    "main.js": "/doctor-smile-care-template-react/static/js/main.fd4ea4bf.js",
+    "static/js/787.2a744077.chunk.js": "/doctor-smile-care-template-react/static/js/787.2a744077.chunk.js",
+    "index.html": "/doctor-smile-care-template-react/index.html",
+    "main.bf36a9b7.css.map": "/doctor-smile-care-template-react/static/css/main.bf36a9b7.css.map",
+    "main.fd4ea4bf.js.map": "/doctor-smile-care-template-react/static/js/main.fd4ea4bf.js.map",
+    "787.2a744077.chunk.js.map": "/doctor-smile-care-template-react/static/js/787.2a744077.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf36a9b7.css",
+    "static/js/main.fd4ea4bf.js"
+  ]
+}
