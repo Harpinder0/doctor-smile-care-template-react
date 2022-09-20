@@ -1,6 +1,13 @@
 import React from 'react';
 
 const Navbar = () => {
+
+  const pathname = window.location.pathname;
+
+  const activeLink = (name) => {
+   return pathname.includes(name) ? 'active' : ''
+  }
+
   return (
     <>
       <div className="container-fluid py-2 border-bottom d-none d-lg-block">
@@ -48,10 +55,10 @@ const Navbar = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarCollapse">
               <div className="navbar-nav ms-auto py-0">
-                <a href className="nav-item nav-link active">Home</a>
-                <a href className="nav-item nav-link">About</a>
-                <a href className="nav-item nav-link">Service</a>
-                <a href className="nav-item nav-link">Pricing</a>
+                <a href='/home' className={`nav-item nav-link ${activeLink('home')}`}>Home</a>
+                <a href='/about' className={`nav-item nav-link ${activeLink('about')}`}>About</a>
+                <a href='/service' className={`nav-item nav-link ${activeLink('service')}`}>Service</a>
+                <a href='/pricing' className={`nav-item nav-link ${activeLink('pricing')}`}>Pricing</a>
                 <div className="nav-item dropdown">
                   <a href className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                   <div className="dropdown-menu m-0">
@@ -63,7 +70,7 @@ const Navbar = () => {
                     <a href className="dropdown-item">Search</a>
                   </div>
                 </div>
-                <a href className="nav-item nav-link">Contact</a>
+                <a href='/contact' className={`nav-item nav-link ${activeLink('contact')}`}>Contact</a>
               </div>
             </div>
           </nav>
