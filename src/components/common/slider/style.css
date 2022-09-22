@@ -1,5 +1,29 @@
-.carousel-item {
+/* .carousel-item {
     display: flex !important;
     justify-content: center !important;
     gap: 30px !important;
+} */
+.carousel-indicators {
+    display: none !important;
+}
+ 
+/* Slider Prev and Next Button */
+.carousel-control-prev, .carousel-control-next {
+    /* position: relative !important; */
+    width: 45px !important;
+    height: 45px !important;
+    top: 45% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: #fff !important;
+    background: #13c5dd !important;
+    border-radius: 45px !important;
+    font-size: 22px !important;
+    transition: .5s !important;
+    margin-left: 20px !important;
+}
+
+.carousel-control-next {
+    margin-right: 20px !important;
 }
