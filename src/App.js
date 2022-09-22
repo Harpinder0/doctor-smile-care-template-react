@@ -8,12 +8,22 @@ import RenderRoutes from './routes';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
+  const pathname = window.location.pathname;
+
+  const renderHeader = () => {
+    if(pathname.includes('service')){
+      return null
+    } else {
+      return <Header />
+    }
+  }
+
   return (
   <div>
     {/* Navbar */}
       <Navbar />
     {/* Header */}
-      <Header />
+      {renderHeader()}
       <RenderRoutes />
     {/* Footer */}
       <Footer />
