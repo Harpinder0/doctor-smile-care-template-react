@@ -1,0 +1,33 @@
+
+[
+    {
+        "heading": "Emergency Care",
+        "about": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.",
+        "iconName": "fa fa-2x fa-user-md text-white"
+    },
+    {
+        "heading": "Operation Surgery",
+        "about": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.",
+        "iconName": "fa fa-2x fa-procedures text-white"
+    },
+    {
+        "heading": "Outdoor Checkup",
+        "about": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.",
+        "iconName": "fa fa-2x fa-stethoscope text-white"
+    },
+    {
+        "heading": "Ambulance Service",
+        "about": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.",
+        "iconName": "fa fa-2x fa-ambulance text-white"
+    },
+    {
+        "heading": "Medicine Pharmacy",
+        "about": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.",
+        "iconName": "fa fa-2x fa-pills text-white"
+    },
+    {
+        "heading": "Blood Testing",
+        "about": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.",
+        "iconName": "fa fa-2x fa-microscope text-white"
+    }
+]
