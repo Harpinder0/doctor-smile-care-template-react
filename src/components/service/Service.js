@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from '../common/card/Card'
 import servicesList from '../../data/service.json';
+// import CarouselCommon from '../common/carousel/carousel';
 
 const Service = () => {
     return (
@@ -135,6 +136,8 @@ const Service = () => {
                 </div>
             </div>
             {/* Testimonial End */}
+           {/* <CarouselCommon /> */}
+
         </div>
     )
 }

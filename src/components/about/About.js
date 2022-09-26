@@ -1,5 +1,6 @@
 import React from 'react';
 import Slider from '../common/slider/Slider';
+import doctorList from '../../data/about.json';
 
 const About = () => {
     return (
@@ -78,7 +79,7 @@ const About = () => {
                             <h5 className="d-inline-block text-primary text-uppercase border-bottom border-5">Our Doctors</h5>
                             <h1 className="display-4">Qualified Healthcare Professionals</h1>
                         </div>
-                        <Slider />
+                        <Slider data={doctorList}/>
                     </div>
                 </div>
             </div>

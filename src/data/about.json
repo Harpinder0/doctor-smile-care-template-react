@@ -1,0 +1,77 @@
+
+[
+    
+    [
+        {
+            "doctor_name": "Doctor Name 1",
+            "doctor_position": "Established Specialist",
+            "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.",
+            "thumbnail": "fa fa-2x fa-user-md text-white",
+            "social_link": {
+                "facebook": "#",
+                "twitter": "#",
+                "linkedin": "#"
+            }
+        },
+        {
+            "doctor_name": "Doctor Name 2",
+            "doctor_position": "Established Specialist",
+            "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.",
+            "thumbnail": "fa fa-2x fa-user-md text-white",
+            "social_link": {
+                "facebook": "#",
+                "twitter": "#",
+                "linkedin": "#"
+            }
+        }
+    ],
+    [
+        {
+            "doctor_name": "Doctor Name 3",
+            "doctor_position": "Established Specialist",
+            "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.",
+            "thumbnail": "fa fa-2x fa-user-md text-white",
+            "social_link": {
+                "facebook": "#",
+                "twitter": "#",
+                "linkedin": "#"
+            }
+        },
+        {
+            "doctor_name": "Doctor Name 4",
+            "doctor_position": "Established Specialist",
+            "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.",
+            "thumbnail": "fa fa-2x fa-user-md text-white",
+            "social_link": {
+                "facebook": "#",
+                "twitter": "#",
+                "linkedin": "#"
+            }
+        }
+    ],
+    [
+        {
+            "doctor_name": "Doctor Name 5",
+            "doctor_position": "Established Specialist",
+            "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.",
+            "thumbnail": "fa fa-2x fa-user-md text-white",
+            "social_link": {
+                "facebook": "#",
+                "twitter": "#",
+                "linkedin": "#"
+            }
+        },
+        {
+            "doctor_name": "Doctor Name 6",
+            "doctor_position": "Established Specialist",
+            "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.",
+            "thumbnail": "fa fa-2x fa-user-md text-white",
+            "social_link": {
+                "facebook": "#",
+                "twitter": "#",
+                "linkedin": "#"
+            }
+        }
+    ]
+]
+
