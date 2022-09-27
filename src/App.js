@@ -11,7 +11,7 @@ function App() {
   const pathname = window.location.pathname;
 
   const renderHeader = () => {
-    if(pathname.includes('service')){
+    if(pathname.includes('service') || pathname.includes('contact')){
       return null
     } else {
       return <Header />
